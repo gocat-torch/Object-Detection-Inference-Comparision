@@ -1,5 +1,8 @@
 # Object-Detection-Inference-Comparision
 
+GPU : TITAN RTX
+Pytorch: 1.3
+
 ### Model: SSD
 
 | Duration        | VGG-16           | MobileNetV2  |
