@@ -1,5 +1,6 @@
 # Object-Detection-Inference-Comparision
 
+### Model: SSD
 
 | Duration        | VGG-16           | MobileNetV2  |
 | -------------   |-------------| ------|
