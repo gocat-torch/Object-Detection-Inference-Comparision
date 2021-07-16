@@ -30,5 +30,5 @@ Pytorch: 1.3
 For SSD, most of codes are borrowed from pytorch-ssd:
 https://github.com/qfgaohao/pytorch-ssd
 
-For Faster R-CNN most of codes are borrowed from mmdet:
+For Faster R-CNN, most of codes are borrowed from mmdet:
 https://github.com/open-mmlab/mmdetection
