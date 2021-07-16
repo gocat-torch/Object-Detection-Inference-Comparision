@@ -1,0 +1,1 @@
+python tools/train.py configs/pascal_voc/faster_rcnn_r101_fpn_1x_voc0712_cocolike_left.py 
