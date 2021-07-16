@@ -5,7 +5,7 @@ Pytorch: 1.3
 
 ### Model: SSD
 
-| Duration        |: VGG-16          :||: MobileNetV2    :||
+| Duration        | : VGG-16          : || : MobileNetV2    : ||
 | ----------------|---------|-------- | ------|--------|
 | Training        | before  | after  | before  | after |
 | Backbone        | a| 0.00147 (± 0.00214)      | bb| 0.00438  (± 0.00208) |
