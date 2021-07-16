@@ -6,8 +6,8 @@ Pytorch: 1.3
 ### Model: SSD
 
 | Duration        | VGG-16          || MobileNetV2    ||
-| Training        | before  | after  | before  | after |
 | ----------------|---------|-------- | ------|--------|
+| Training        | before  | after  | before  | after |
 | Backbone        | a| 0.00147 (± 0.00214)      | bb| 0.00438  (± 0.00208) |
 | Header          | a| 0.00105 (± 0.00008)      | b|  0.00170  (± 0.00003) |
 | Box converting  | a| 0.00020 (± 0.00000)      | b|  0.00020  (± 0.00000) |
