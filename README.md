@@ -13,7 +13,7 @@ Pytorch: 1.3
 | Box converting  |0.00020 (± 0.00000) | 0.00020 (± 0.00000) | 0.00020 (± 0.00000)|  0.00020  (± 0.00000) |
 | NMS             |0.13452 (± 0.00522) | 0.02835 (± 0.00939)   | 0.08391 (± 0.00533)|  0.01721  (± 0.00740)|
 
-### Model : Faster-RCNN ( ResNet101-FPN) ( Dataset : COCO)
+### Model : Faster-RCNN  ( Dataset : COCO)
 | Duration                 | ResNet50-FPN ||  ResNet101-FPN           || 
 |-----------------         |---------|--------- |-------|--------|
 | Training                 | before  | after    | before             | after                    |
@@ -26,9 +26,9 @@ Pytorch: 1.3
 | Post Head (Including NMS)|         | 0.00401 (± 0.00014)         | | 0.00422 (± 0.00025)      |
 
 
-### Model : CenterNetV2 (ResNet50) ( Dataset : COCO)
+### Model : CenterNetV2  ( Dataset : COCO)
 
-| Duration                 |  ResNet50           ||  | DLS_BiFPN-P3 | 
+| Duration                 |  ResNet50           || DLS_BiFPN-P3  |  | 
 |-----------------         |---------|--------- |-------|--------|
 | Training                 | before  | after    | before  | after |
 | Backbone                 |  | 0.00524 (± 0.00331)      | | 0.00835 (± 0.00272)|
