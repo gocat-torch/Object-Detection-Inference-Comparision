@@ -51,5 +51,5 @@ https://github.com/qfgaohao/pytorch-ssd
 For Faster R-CNN, most of codes are borrowed from mmdet:
 https://github.com/open-mmlab/mmdetection
 
-For CenterNetV2, most of codes are borrowed from mmdet:
+For CenterNetV2, most of codes are borrowed from CenterNet2:
 https://github.com/xingyizhou/CenterNet2
