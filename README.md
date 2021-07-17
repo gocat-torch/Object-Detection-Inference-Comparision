@@ -13,7 +13,7 @@ Pytorch: 1.3
 | Box converting  |0.00020 (± 0.00000) | 0.00020 (± 0.00000) | 0.00020 (± 0.00000)|  0.00020  (± 0.00000) |
 | NMS             |0.13452 (± 0.00522) | 0.02835 (± 0.00939)   | 0.08391 (± 0.00533)|  0.01721  (± 0.00740)|
 
-### Model : Faster-RCNN ( ResNet101-FPN) (Dataset : Pascal VOC)
+### Model : Faster-RCNN ( ResNet101-FPN) ( Dataset : COCO)
 | Duration                 | ResNet50-FPN ||  ResNet101-FPN           || 
 |-----------------         |---------|--------- |-------|--------|
 | Training                 | before  | after    | before             | after                    |
@@ -28,7 +28,7 @@ Pytorch: 1.3
 
 ### Model : CenterNetV2 (ResNet50) ( Dataset : COCO)
 
-| Duration                 | : ResNet50          : ||  || 
+| Duration                 |  ResNet50           ||  || 
 |-----------------         |---------|--------- |-------|--------|
 | Training                 | before  | after    | before  | after |
 | Backbone                 |  | 0.00524 (± 0.00331)      | |  |
