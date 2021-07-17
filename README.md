@@ -28,7 +28,7 @@ Pytorch: 1.3
 
 ### Model : CenterNetV2  ( Dataset : COCO)
 
-| Duration                 |  ResNet50           || DLS_BiFPN-P3  |  | 
+| Duration                 |  ResNet50           || DLA_BiFPN-P3  |  | 
 |-----------------         |---------|--------- |-------|--------|
 | Training                 | before  | after    | before  | after |
 | Backbone                 |  | 0.00524 (± 0.00331)      | | 0.00835 (± 0.00272)|
