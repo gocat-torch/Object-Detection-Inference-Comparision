@@ -28,18 +28,18 @@ Pytorch: 1.3
 
 ### Model : CenterNetV2 (ResNet50) ( Dataset : COCO)
 
-| Duration                 |  ResNet50           ||  || 
+| Duration                 |  ResNet50           || DLS_BiFPN-P3 || 
 |-----------------         |---------|--------- |-------|--------|
 | Training                 | before  | after    | before  | after |
-| Backbone                 |  | 0.00524 (± 0.00331)      | |  |
-| Centernet Head           |  | 0.00285 (± 0.00003)      | |  |
-| Comptuing Grids          |  | 0.02441 (± 0.00275)      | |  |
-| Generationg Proposals    |  | 0.00318 (± 0.00158)      | |  |
-| Proposal NMS             |  | 0.00125 (± 0.00004)      | |  |
-| ROI Heads Cascade        |  | 0.00627 (± 0.00032)      | |  |
-| ROI Heads predict        |  | 0.00058 (± 0.00001)      | |  |
-| ROI Heads NMS            |  | 0.00086 (± 0.00001)      | |  |
-| Post Processing          |  | 0.00051 (± 0.00000)      | |  |
+| Backbone                 |  | 0.00524 (± 0.00331)      | | 0.00835 (± 0.00272)|
+| Centernet Head           |  | 0.00285 (± 0.00003)      | | 0.00166 (± 0.00002) |
+| Comptuing Grids          |  | 0.02441 (± 0.00275)      | | 0.00086 (± 0.00033) |
+| Generationg Proposals    |  | 0.00318 (± 0.00158)      | | 0.00192 (± 0.00122) |
+| Proposal NMS             |  | 0.00125 (± 0.00004)      | | 0.00097 (± 0.00142) |
+| ROI Heads Cascade        |  | 0.00627 (± 0.00032)      | | 0.00442 (± 0.00009) |
+| ROI Heads predict        |  | 0.00058 (± 0.00001)      | | 0.00056 (± 0.00001) |
+| ROI Heads NMS            |  | 0.00086 (± 0.00001)      | | 0.00082 (± 0.00001) |
+| Post Processing          |  | 0.00051 (± 0.00000)      | | 0.00050 (± 0.00000) |
 
 
 
